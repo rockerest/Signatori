@@ -1,4 +1,4 @@
 Signatori
 =========
 
-A plugin to name, date, and time stamp easily in code.
+A plugin to easily name-, date-, and time-stamp in code.
