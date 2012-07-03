@@ -1,3 +1,6 @@
+Warning:  
+This plugin isn't currently working.  I don't know why.
+
 Signatori
 =========
 
