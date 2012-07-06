@@ -6,9 +6,9 @@ import sublime_plugin
 class SignatoriCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         #load settings
-        s = sublime.load_settings("Signatori.sublime-settings")
+        settings = sublime.load_settings(__name__ + ".sublime-settings")
         #generate the timestamp
-        timestamp_str = '[' + s.get('user_name') + ' @ '
+        timestamp_str = '[' + settings.get('user_name') + ' @ '
         timestamp_str = timestamp_str + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         timestamp_str = timestamp_str + '] '
 
