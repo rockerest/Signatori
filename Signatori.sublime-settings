@@ -1,5 +1,5 @@
 {
 	//name to print
 	"user_name": "Looks like you need to put your name in the settings file",
-	"force_select": false // Allways select output after insert
+	"select_afer_insert": false // Always select output after insert
 }
